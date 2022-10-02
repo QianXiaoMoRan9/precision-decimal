@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "precision-decimal"
+version = "0.1.0"
+description = ""
+authors = ["QianXiaoMoRan9 <usersteven233333@gmail.com>"]
+readme = "README.md"
+packages = [{include = "precision_decimal"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
